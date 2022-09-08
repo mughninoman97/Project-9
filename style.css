@@ -1,0 +1,494 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+* header {
+  height: 500px;
+  background-color: #3400ff;
+  /* color: white; */
+}
+nav {
+  float: right;
+  /* border: 3px solid white; */
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.nav-item {
+  color: #f5f5f5;
+  margin-right: 30px;
+}
+.nav-item-active {
+  background-color: #ffffff;
+    padding: 6px 15px 6px 15px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    color: blue;
+}
+
+.logo {
+  /* border: 3px solid black; */
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.header-text {
+  color: white;
+
+  margin-left: 60px;
+  margin-top: 50px;
+  float: left;
+  font-size: 28px;
+}
+.header-text p{
+  font-size:18px
+}
+
+.header-image {
+  float: right;
+}
+
+.companies {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 34px;
+  font-weight: 600;
+}
+
+.api-heading {
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+
+.cards {
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 20%;
+  height: 300px;
+
+  background-color: transparent;
+  margin-right: 30px;
+}
+/* firstcard */
+.card-active {
+  width: 20%;
+  height: 280px;
+  margin-right: 30px;
+  box-shadow: 0px 5px 15px black;
+  padding: 8px;
+  border-radius: 10px;
+}
+.card-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-head-active {
+  margin-left: 30px;
+  color: #5a31fc;
+}
+.card-body {
+  color: #000000;
+  margin-left: 30px;
+  font-size: 13px;
+}
+.card-head{
+  margin-left: 34px;
+}
+
+.blog-heading {
+  /* font-weight: 800; */
+  margin-left: 90px;
+  /* margin-top: 100px;
+  font-style: bold; */
+}
+
+.blog-cards {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.blog-card {
+  height: 288px;
+  width: 40%;
+  background-color: white;
+  border-radius: 70px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 50px;
+}
+
+.blog-bottom {
+  float: right;
+  /* padding-left: 500px; */
+  margin-right: 100px;
+}
+
+/* body of blog */
+.blog-content {
+  /* border: 2px solid black; */
+  float: right;
+  margin-right: 30px;
+  margin-top: -15px;
+}
+.blog-image {
+  float: left;
+}
+.blog-bottom {
+  float: right;
+  margin-right: 100px;
+}
+
+.blog-bottom {
+  float: right;
+  margin-right: 100px;
+}
+
+.blog-card-bottom-image {
+  margin-top: 26px;
+  margin-right: 65px;
+}
+.blog-author {
+  font-size: small;
+  float: right;
+  margin-top: 14px;
+  margin-right: -80px;
+  font-weight: bold;
+}
+.blog-card {
+  float: left;
+}
+.blog-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.faq-section {
+  height: 325px;
+  background-color: #e9edff;
+  margin-top: 50px;
+  box-shadow: rgba(0 0 0 0.24) 0px 3px 8px;
+}
+
+.faq-image {
+  float: right;
+  height: 300px;
+  width: 40%;
+  /* border: 2px solid black; */
+  /* margin-left: 50%;
+  margin-top: -32%; */
+  /* margin-bottom: 780px;
+  margin-right: 320px; */
+}
+
+.faq-content {
+  float: left;
+  margin-left: 90px;
+}
+/* .faq-content,h4:first-child{
+  font-size: 14px;
+  font-weight: 200;
+} */
+
+.faq-content h2 {
+  font-weight: bolder;
+  font-size: 200%;
+}
+.faq-content button {
+  background-color: #5a31fc;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.download-section {
+  height: 225px;
+  background-color: #fff;
+  /* margin-top: 160px; */
+}
+
+.download-content {
+  float: left;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.download-email {
+  float: right;
+  margin-top: 80px;
+  margin-left: 90px;
+}
+.download-content h1 {
+  font-size: 300%;
+}
+.download-content span {
+  font-size: 70%;
+  font-weight: 200;
+}
+.download-email {
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+  padding-bottom: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  /* border: 2px solid grey; */
+  border-radius: 22px;
+  padding: 2px;
+  background-color: #e9edff;
+}
+
+input {
+  flex-grow: 2;
+  border: none;
+  width: 400px;
+  background-color: transparent;
+ 
+  padding-left: 30px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: 150px;
+  color: white;
+  border-radius: 20px;
+  border-width: 1px;
+  border: none;
+  background-color: #5a31fc;
+}
+.footer-section {
+  height: 225px;
+  background-color: #5a31fc;
+}
+.footer-left {
+  float: left;
+}
+.footer-logo {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 30px;
+  color: white;
+}
+.logos-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: -200px;
+  margin-top: 120px;
+  color: white;
+}
+
+.list-items {
+  margin-left: 25px;
+  list-style: "|  ";
+}
+.footer-right {
+  float: right;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.footer-logos {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+ li:first-child{
+
+  list-style: none;
+}
+.card:hover{
+  box-shadow: 0px 5px 15px black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.list-items:hover{
+  cursor: pointer;
+  color: #000000;
+}
+.nav-item-active:hover{
+  background-color: black;
+  color: white;
+}
+.nav-item:hover{
+  color: #000000;
+  cursor: pointer;
+}
+.faq-content button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+form button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+/* Media Queries  */
+
+@media screen and (max-width:800px) {
+  img[src="./images/Logo.png"]{
+    margin-left: auto;
+  }
+  .nav-item{
+    display: none;
+  }
+  .nav-item-active{
+    position: relative;
+    top: 19px;
+    left: 35px;
+  }
+  header{
+    height: 600px;
+  }
+  .companies{
+    margin-left: 10px;
+  }
+  .cards{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .card-active{
+    height: 300px;
+    width: auto;
+  }
+  .card{
+    height: 300px;
+    width: auto;
+
+  }
+  .blog-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .blog-card{
+    margin-left: 6px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    width: 622px
+  }
+  .blog-content{
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    /* border: 2px solid black; */
+    margin-right: 0;
+  }
+  .blog-image{
+    /* height: 50px; */
+  }
+  .blog-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-card-bottom-image{
+    margin-top: 227px;
+    position: relative;
+    right: 213px;
+  }
+  .blog-author{
+    margin-top: 117px;
+    position: relative;
+    right: 184px;
+  }
+  .faq-image{
+    float: left;
+    margin-top: 12px;
+  }
+  .faq-section{
+    height: 360px;
+  }
+  .download-section{
+    margin-top: 30px;
+  }
+  .download-email input{
+    flex-grow: 2;
+    border: none;
+    width: 265px;
+    background-color: transparent;
+    padding-left: 71px;
+
+  }
+  .footer-section{
+    background-color: transparent;
+  }
+  .footer-left{
+    background-color: #5a31fc;
+  }
+  .footer-left .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: -68px;
+  }
+  .footer-left .footer-logo{
+    margin-left: 20px;
+  }
+  .footer-right{
+    background-color: #5a31fc;
+    width: 630px;
+    height: 200px;
+    margin-top: -1px;
+    margin-right: 0;
+  }
+  .footer-right img{
+    position: relative;
+    left: 300px;
+  }
+  .logos-list{
+    /* border: 2px solid red; */
+    color: white;
+    position: relative;
+    top: -70px;
+
+  }
+  .logos-list .list-items{
+    position: relative;
+    left: 230px;
+  }
+}
+  
+
