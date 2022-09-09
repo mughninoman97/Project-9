@@ -1,18 +1,20 @@
-# Project No. 9
+# Project No. 9 (API Project)
 
-This is my 9th project of Web Development. The project is designed in such a way that it works on large(Desktop & Laptop) as well as small screens(Mobile Devices). In this project I have learnt a lot of new concepts of CSS like  display and float properties,  Media Queries, how to override properties on media queries, Flex properties and uses, box-shadow property etc. 
+This is my _**9th project**_ of Web Development which is a mobile responsive too. The project is designed in such a way that it works on large(Desktop & Laptop) as well as small screens(Mobile Devices). In this project I have learnt a lot of new concepts of CSS like _**display and float properties,  Media Queries, how to override properties on media queries, Flex properties and uses, box-shadow property**_ etc. 
+
+> [Check out the deployed link](https://project-9-by-noman.netlify.app/)
 
 FULL WEBPAGE:
-![Project2](sc/full.png "proj2 image")
+![Project9](sc/full.png "pro92 image")
 
 NAVBAR:
-![Project2](sc/nav.PNG "proj2 image")
+![Project9](sc/nav.PNG "proj9 image")
 
 BODY:
-![Project2](sc/body1.PNG "pro21 image")
-![Project2](sc/body2.PNG)
+![Project9](sc/body1.PNG "pr9 image")
+![Project9](sc/body2.PNG)
 
-## Technologies Used
+# Technologies Used
 
 ![Mascot](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg "mascot logo")
 ![Mascot](https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg "mascot logo")
